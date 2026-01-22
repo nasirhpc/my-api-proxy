@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "cleanUrls": true,
   "rewrites": [
     {
-      "source": "/",
-      "destination": "/index.html"
+      "source": "/status",
+      "destination": "https://script.google.com/a/macros/hpadminbd.com/s/AKfycby9pxeBMRwNSQP3EqZr3q3gaHtcMOEqcBFm2gZZOIWRn7fIIIxZRor26BIY29OFylh_iA/exec/status"
     },
     {
-      "source": "/(?!index\\.html$).*",
+      "source": "/(.*)",
       "destination": "https://script.google.com/a/macros/hpadminbd.com/s/AKfycby9pxeBMRwNSQP3EqZr3q3gaHtcMOEqcBFm2gZZOIWRn7fIIIxZRor26BIY29OFylh_iA/exec"
     }
   ]
