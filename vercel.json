@@ -2,6 +2,21 @@
   "version": 2,
   "rewrites": [
     {
+      "source": "/",
+      "has": [
+        {
+          "type": "body",
+          "key": "userid",
+          "value": "apihpc"
+        }
+      ],
+      "destination": "https://script.google.com/a/macros/hpadminbd.com/s/AKfycby9pxeBMRwNSQP3EqZr3q3gaHtcMOEqcBFm2gZZOIWRn7fIIIxZRor26BIY29OFylh_iA/exec"
+    },
+    {
+      "source": "/",
+      "destination": "/index.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "https://script.google.com/a/macros/hpadminbd.com/s/AKfycby9pxeBMRwNSQP3EqZr3q3gaHtcMOEqcBFm2gZZOIWRn7fIIIxZRor26BIY29OFylh_iA/exec"
     }
