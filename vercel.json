@@ -2,11 +2,7 @@
   "version": 2,
   "rewrites": [
     {
-      "source": "/status",
-      "destination": "https://script.google.com/a/macros/hpadminbd.com/s/AKfycby9pxeBMRwNSQP3EqZr3q3gaHtcMOEqcBFm2gZZOIWRn7fIIIxZRor26BIY29OFylh_iA/exec/status"
-    },
-    {
-      "source": "/(.*)",
+      "source": "/((?!index\\.html$).*)",
       "destination": "https://script.google.com/a/macros/hpadminbd.com/s/AKfycby9pxeBMRwNSQP3EqZr3q3gaHtcMOEqcBFm2gZZOIWRn7fIIIxZRor26BIY29OFylh_iA/exec"
     }
   ]
