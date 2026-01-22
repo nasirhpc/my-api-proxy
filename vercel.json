@@ -6,8 +6,8 @@
       "has": [
         {
           "type": "header",
-          "key": "accept",
-          "value": ".*text/html.*"
+          "key": "user-agent",
+          "value": ".*Mozilla.*"
         }
       ],
       "destination": "/index.html"
