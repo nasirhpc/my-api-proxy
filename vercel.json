@@ -2,6 +2,16 @@
   "version": 2,
   "rewrites": [
     {
+      "source": "/",
+      "methods": ["POST"],
+      "destination": "https://script.google.com/a/macros/hpadminbd.com/s/AKfycby9pxeBMRwNSQP3EqZr3q3gaHtcMOEqcBFm2gZZOIWRn7fIIIxZRor26BIY29OFylh_iA/exec"
+    },
+    {
+      "source": "/",
+      "methods": ["GET"],
+      "destination": "/index.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "https://script.google.com/a/macros/hpadminbd.com/s/AKfycby9pxeBMRwNSQP3EqZr3q3gaHtcMOEqcBFm2gZZOIWRn7fIIIxZRor26BIY29OFylh_iA/exec"
     }
